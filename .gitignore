@@ -1,0 +1,46 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# macOS files
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+
+# Conda environments
+.conda/
+
+# Trained and modified model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Generated weight exports
+weights.json
+
+# Generated WSP patches
+repair_patch.json
+repair.patch.json
+
+# Experiment outputs
+outputs/
+results/
+logs/
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
